@@ -1,0 +1,15 @@
+{
+  "name": "geeh/slidey",
+  "description": "Slide Roulette Baby!",
+  "minimum-stability": "alpha",
+  "license": "Whatever, Whenever",
+  "authors": [
+    {
+      "name": "Gary Hockin",
+      "email": "gary@hock.in"
+    }
+  ],
+  "autoload": {
+    "psr-0": {"Slidey\\": "src/"}
+  }
+}

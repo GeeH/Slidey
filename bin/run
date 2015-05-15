@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+use Slidey\Generate;
+
+// make sure all paths are relevant to the project root
+chdir(__DIR__.'/../');
+
+// sort out autoloading
+require_once('vendor/autoload.php');
+
+$generate = new Generate();
+$generate('Gary Hockin');

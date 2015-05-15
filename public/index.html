@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -41,25 +41,13 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 
-                <section>
-<h1>PHP 6 For Beginners</h1>
-<h2>Cal Evans</h2>
-</section>
-<section>
-<h1>My Hero</h1>
-<img src="/assets/bill.jpg" alt="Bill Gates" border="0">
-</section>
-<section>
-<img src="/assets/2.png" width="640" height="320" alt="Logo" border="0">
-</section>
-<section data-markdown>
+                <section data-markdown>
 <script type="text/template">
-### Introducing Phil Sturgeon
-</script>
-</section>
-<section data-markdown>
-<script type="text/template">
-# DOES IT REFLECT HOW WE USE PHP TODAY?
+# Cats Are Fun!
+
+## Cal Evans
+
+> Lead Helpdesk Technician, CostCo
 </script>
 </section>
 <section data-markdown>
@@ -70,6 +58,36 @@
 - Cheat?
 - Steal?
 </script>
+</section>
+<section>
+<pre><code data-trim>
+    (def lazy-fib
+    (concat
+    [0 1]
+    ((fn rfib [a b]
+    (lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
+</code></pre>
+</section>
+<section data-markdown>
+<script type="text/template">
+## Broken Authentication and Session Management
+</script>
+</section>
+<section data-markdown>
+<script type="text/template">
+### Introducing Phil Sturgeon
+</script>
+</section>
+<section>
+<pre><code data-trim>
+if($_GET['content']) {
+    if ($_GET['content']) {
+        if (file_exists("site/{$_GET['content']}.php")) {
+              include("{$_GET['content']}.php");
+        }
+    }
+}
+</code></pre>
 </section>
 <section>
 <h1>Thank You!</h1>

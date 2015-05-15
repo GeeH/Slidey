@@ -1,0 +1,9 @@
+<pre><code data-trim>
+if($_GET['content']) {
+    if ($_GET['content']) {
+        if (file_exists("site/{$_GET['content']}.php")) {
+              include("{$_GET['content']}.php");
+        }
+    }
+}
+</code></pre>

@@ -8,5 +8,7 @@ chdir(__DIR__.'/../');
 // sort out autoloading
 require_once('vendor/autoload.php');
 
+$name = isset($argv[1]) ? $argv[1] : "Cal Evans";
+
 $generate = new Generate();
-$generate('Gary Hockin');
+$generate($name);

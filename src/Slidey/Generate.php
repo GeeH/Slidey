@@ -42,6 +42,21 @@ class Generate
      * Number of body slides to use§
      */
     const BODY_SLIDES = 4;
+    /**
+     * List of themes that can be used
+     * @var array
+     */
+    protected $themes = [
+        'black',
+        'white',
+        'league',
+        'beige',
+        'sky',
+        'night',
+        'serif',
+        'simple',
+        'solarized',
+    ];
 
     /**
      * @param $name
@@ -62,7 +77,6 @@ class Generate
         $slides = $this->getSlides(self::FINISH_DIR);
         $slide  = $slides[array_rand($slides)];
         echo 'Picked slide: ' . $slide . PHP_EOL;
-
         $html = file_get_contents($slide);
         $html = str_replace('{#NAME!#}', $name, $html);
         $this->addSection($slide, $html);
@@ -76,7 +90,6 @@ class Generate
         $slides = $this->getSlides(self::TITLE_DIR);
         $slide  = $slides[array_rand($slides)];
         echo 'Picked slide: ' . $slide . PHP_EOL;
-
         $html = file_get_contents($slide);
         $html = str_replace('{#NAME!#}', $name, $html);
         $this->addSection($slide, $html);
@@ -89,23 +102,18 @@ class Generate
     {
         $slides = $this->getSlides(self::CONTENT_DIR);
         shuffle($slides);
-
         $count = 0;
-
-        while($count <= self::BODY_SLIDES) {
-            if(count($slides) === 0) {
+        while ($count <= self::BODY_SLIDES) {
+            if (count($slides) === 0) {
                 break;
             }
-
-            $slide  = array_shift($slides);
+            $slide = array_shift($slides);
             echo 'Picked slide: ' . $slide . PHP_EOL;
             $html = file_get_contents($slide);
             $html = str_replace('{#NAME!#}', $name, $html);
-
             $this->addSection($slide, $html);
             $count++;
         }
-
 
     }
 
@@ -116,7 +124,7 @@ class Generate
     private function addSection($slide, $html)
     {
         $isMarkdown = substr($slide, -3) === '.md' ? true : false;
-        $newHtml = '<section';
+        $newHtml    = '<section';
         if ($isMarkdown) {
             $newHtml .= ' data-markdown>' . PHP_EOL;
             $newHtml .= '<script type="text/template">' . PHP_EOL;
@@ -133,7 +141,10 @@ class Generate
 
     private function writeSlides()
     {
+        $theme = $this->themes[array_rand($this->themes)];
+        echo 'Picked theme: ' . $theme . PHP_EOL;
         $template = file_get_contents(self::TEMPLATE_FILE);
+        $template = str_replace('{#THEME!#}', $theme, $template);
         $template = str_replace('{#SLIDES!#}', $this->html, $template);
         file_put_contents(self::DESTINATION_FILE, $template);
     }

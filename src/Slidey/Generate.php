@@ -29,7 +29,6 @@ class Generate
      * End slides directory
      */
     const FINISH_DIR = 'finish/';
-
     /**
      * Template to use to write the slides
      */

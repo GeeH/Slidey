@@ -50,7 +50,22 @@ class Generate
     {
         $this->pickRandomTitle($name);
         $this->pickRandomContent($name);
+        $this->pickRandomFinish($name);
         $this->writeSlides();
+    }
+
+    /**
+     * @param $name
+     */
+    private function pickRandomFinish($name)
+    {
+        $slides = $this->getSlides(self::FINISH_DIR);
+        $slide  = $slides[array_rand($slides)];
+        echo 'Picked slide: ' . $slide . PHP_EOL;
+
+        $html = file_get_contents($slide);
+        $html = str_replace('{#NAME!#}', $name, $html);
+        $this->addSection($slide, $html);
     }
 
     /**
@@ -67,16 +82,31 @@ class Generate
         $this->addSection($slide, $html);
     }
 
+    /**
+     * @param $name
+     */
     private function pickRandomContent($name)
     {
         $slides = $this->getSlides(self::CONTENT_DIR);
+        shuffle($slides);
 
-        $slide  = $slides[array_rand($slides)];
-        echo 'Picked slide: ' . $slide . PHP_EOL;
-        $html = file_get_contents($slide);
-        $html = str_replace('{#NAME!#}', $name, $html);
+        $count = 0;
 
-        $this->addSection($slide, $html);
+        while($count <= self::BODY_SLIDES) {
+            if(count($slides) === 0) {
+                break;
+            }
+
+            $slide  = array_shift($slides);
+            echo 'Picked slide: ' . $slide . PHP_EOL;
+            $html = file_get_contents($slide);
+            $html = str_replace('{#NAME!#}', $name, $html);
+
+            $this->addSection($slide, $html);
+            $count++;
+        }
+
+
     }
 
     /**

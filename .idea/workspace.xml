@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fb0be36-278b-4e16-9bd5-11952c40e435" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/print/paper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/print/pdf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/beige.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/blood.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/league.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/moon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/night.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/serif.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/sky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/solarized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/beige.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/black.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/blood.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/league.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/moon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/night.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/serif.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/simple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/sky.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/solarized.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/source/white.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/template/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/template/settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/template/theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/theme/white.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/reveal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/css/zenburn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/league-gothic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/js/classList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/js/head.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/highlight/highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/leap/leap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/markdown/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/markdown/example.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/markdown/marked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/math/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/multiplex/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/multiplex/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/multiplex/master.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/notes-server/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/notes-server/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/notes-server/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/notes/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/notes/notes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/remotes/remotes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/search/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/slides/content/1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/slides/finish/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/slides/title/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/examples/assets/image1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/examples/assets/image2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/examples/barebones.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/examples/embedded-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/examples/math.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/examples/slide-backgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/qunit-1.12.0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/qunit-1.12.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-markdown-element-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-markdown-element-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-markdown-slide-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-markdown-slide-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-pdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.js" afterPath="" />
+    </list>
+    <ignored path="slidey.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="slidey" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source.html" />
+        <option value="$PROJECT_DIR$/slides/title/1.html" />
+        <option value="$PROJECT_DIR$/slides/finish/1.html" />
+        <option value="$PROJECT_DIR$/slides/content/1.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGruntFileManager">
+    <initial>false</initial>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="973" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.updates" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/slides" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fb0be36-278b-4e16-9bd5-11952c40e435" name="Default" comment="" />
+      <created>1431680137183</created>
+      <option name="number" value="Default" />
+      <updated>1431680137183</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="973" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
